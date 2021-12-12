@@ -1,0 +1,15 @@
+BATCH_SIZE = 2
+PROPOSAL_NUM = 4
+NUM_CLASSES = 2341
+CAT_NUM = 2
+RESIZED_SIZE = (600, 600)
+INPUT_SIZE = (448, 448)
+RESIZED_SIZE_s = (300, 300)
+INPUT_SIZE_s = (224, 224)
+LR = 0.001
+WD = 1e-4
+SAVE_FREQ = 1
+resume = ''
+test_model = 'model.ckpt'
+save_dir = '../models'
+VAL_PROCENT = 0.2
